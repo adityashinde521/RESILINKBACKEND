@@ -1,0 +1,14 @@
+E:\RESILINK\ResiLink Backend\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.deps.json
+E:\RESILINK\ResiLink Backend\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.dll
+E:\RESILINK\ResiLink Backend\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.pdb
+E:\RESILINK\ResiLink Backend\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.AssemblyReference.cache
+E:\RESILINK\ResiLink Backend\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\RESILINK\ResiLink Backend\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfoInputs.cache
+E:\RESILINK\ResiLink Backend\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.AssemblyInfo.cs
+E:\RESILINK\ResiLink Backend\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\RESILINK\ResiLink Backend\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.dll
+E:\RESILINK\ResiLink Backend\DataAccessLayer\obj\Debug\net7.0\refint\DataAccessLayer.dll
+E:\RESILINK\ResiLink Backend\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.pdb
+E:\RESILINK\ResiLink Backend\DataAccessLayer\obj\Debug\net7.0\ref\DataAccessLayer.dll
+E:\RESILINK\ResiLink Backend\DataAccessLayer\bin\Debug\net7.0\DataAccessLayer.runtimeconfig.json
+E:\RESILINK\ResiLink Backend\DataAccessLayer\obj\Debug\net7.0\DataAccessLayer.genruntimeconfig.cache
