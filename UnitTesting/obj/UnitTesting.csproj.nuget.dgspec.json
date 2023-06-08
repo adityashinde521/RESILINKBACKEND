@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\RESILINK\\ResiLink Backend\\UnitTesting\\UnitTesting.csproj": {}
+    "E:\\ResilinkProject\\RESILINKBACKEND\\UnitTesting\\UnitTesting.csproj": {}
   },
   "projects": {
-    "E:\\RESILINK\\ResiLink Backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+    "E:\\ResilinkProject\\RESILINKBACKEND\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\RESILINK\\ResiLink Backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "projectUniqueName": "E:\\ResilinkProject\\RESILINKBACKEND\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
         "projectName": "BusinessLogicLayer",
-        "projectPath": "E:\\RESILINK\\ResiLink Backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "projectPath": "E:\\ResilinkProject\\RESILINKBACKEND\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
         "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
-        "outputPath": "E:\\RESILINK\\ResiLink Backend\\BusinessLogicLayer\\obj\\",
+        "outputPath": "E:\\ResilinkProject\\RESILINKBACKEND\\BusinessLogicLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\RESILINK\\ResiLink Backend\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "E:\\RESILINK\\ResiLink Backend\\DataAccessLayer\\DataAccessLayer.csproj"
+              "E:\\ResilinkProject\\RESILINKBACKEND\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "E:\\ResilinkProject\\RESILINKBACKEND\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "E:\\RESILINK\\ResiLink Backend\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "E:\\ResilinkProject\\RESILINKBACKEND\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\RESILINK\\ResiLink Backend\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "E:\\ResilinkProject\\RESILINKBACKEND\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "E:\\RESILINK\\ResiLink Backend\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "E:\\ResilinkProject\\RESILINKBACKEND\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
-        "outputPath": "E:\\RESILINK\\ResiLink Backend\\DataAccessLayer\\obj\\",
+        "outputPath": "E:\\ResilinkProject\\RESILINKBACKEND\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -156,14 +156,14 @@
         }
       }
     },
-    "E:\\RESILINK\\ResiLink Backend\\UnitTesting\\UnitTesting.csproj": {
+    "E:\\ResilinkProject\\RESILINKBACKEND\\UnitTesting\\UnitTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\RESILINK\\ResiLink Backend\\UnitTesting\\UnitTesting.csproj",
+        "projectUniqueName": "E:\\ResilinkProject\\RESILINKBACKEND\\UnitTesting\\UnitTesting.csproj",
         "projectName": "UnitTesting",
-        "projectPath": "E:\\RESILINK\\ResiLink Backend\\UnitTesting\\UnitTesting.csproj",
+        "projectPath": "E:\\ResilinkProject\\RESILINKBACKEND\\UnitTesting\\UnitTesting.csproj",
         "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
-        "outputPath": "E:\\RESILINK\\ResiLink Backend\\UnitTesting\\obj\\",
+        "outputPath": "E:\\ResilinkProject\\RESILINKBACKEND\\UnitTesting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -184,8 +184,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "E:\\RESILINK\\ResiLink Backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
-                "projectPath": "E:\\RESILINK\\ResiLink Backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+              "E:\\ResilinkProject\\RESILINKBACKEND\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+                "projectPath": "E:\\ResilinkProject\\RESILINKBACKEND\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
               }
             }
           }

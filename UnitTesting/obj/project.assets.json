@@ -6506,11 +6506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\RESILINK\\ResiLink Backend\\UnitTesting\\UnitTesting.csproj",
+      "projectUniqueName": "E:\\ResilinkProject\\RESILINKBACKEND\\UnitTesting\\UnitTesting.csproj",
       "projectName": "UnitTesting",
-      "projectPath": "E:\\RESILINK\\ResiLink Backend\\UnitTesting\\UnitTesting.csproj",
+      "projectPath": "E:\\ResilinkProject\\RESILINKBACKEND\\UnitTesting\\UnitTesting.csproj",
       "packagesPath": "C:\\Users\\adity\\.nuget\\packages\\",
-      "outputPath": "E:\\RESILINK\\ResiLink Backend\\UnitTesting\\obj\\",
+      "outputPath": "E:\\ResilinkProject\\RESILINKBACKEND\\UnitTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6531,8 +6531,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\RESILINK\\ResiLink Backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
-              "projectPath": "E:\\RESILINK\\ResiLink Backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
+            "E:\\ResilinkProject\\RESILINKBACKEND\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+              "projectPath": "E:\\ResilinkProject\\RESILINKBACKEND\\BusinessLogicLayer\\BusinessLogicLayer.csproj"
             }
           }
         }

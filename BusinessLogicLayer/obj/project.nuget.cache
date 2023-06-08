@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6J82kxc1/jSdV4AidiXFbRqJrwLo++29WmVbi6FRwZjVbeCN4XZ33fCxX17NQhEZhzN/9CdW0h6ET6DpbfOnww==",
+  "dgSpecHash": "KRMp/TJNlEuRQWD1/JAbkBJNzzBrgT5Mwo0OL5u1QV2nF5yWTpJsIDcYurs2CyqbP6oIrZbXnYOKvwby4E3UyA==",
   "success": true,
-  "projectFilePath": "E:\\RESILINK\\ResiLink Backend\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+  "projectFilePath": "E:\\ResilinkProject\\RESILINKBACKEND\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adity\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\adity\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

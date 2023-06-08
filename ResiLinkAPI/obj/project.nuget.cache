@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2OpZ7M1sXGq9cHJ7BDH2oZNZ0O/E9iC8EZ2jjy4Mwej/UFokBFfIrCXmaVLCJG2WQAdIj1ShXNS/jVcNDsRVoA==",
+  "dgSpecHash": "9agbyZX26yF2qE0tpBwJ+j293ZX/1+NyhHIC3tFDEnLkV1X5CjlspxcArfjMglioBjojFebjN9BM7o40XDXthA==",
   "success": true,
-  "projectFilePath": "E:\\RESILINK\\ResiLink Backend\\ResiLinkAPI\\ResiLinkAPI.csproj",
+  "projectFilePath": "E:\\ResilinkProject\\RESILINKBACKEND\\ResiLinkAPI\\ResiLinkAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adity\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\adity\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

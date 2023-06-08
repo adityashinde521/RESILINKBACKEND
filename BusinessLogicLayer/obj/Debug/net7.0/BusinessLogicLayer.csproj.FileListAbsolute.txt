@@ -13,3 +13,18 @@ E:\RESILINK\ResiLink Backend\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLa
 E:\RESILINK\ResiLink Backend\BusinessLogicLayer\obj\Debug\net7.0\refint\BusinessLogicLayer.dll
 E:\RESILINK\ResiLink Backend\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.pdb
 E:\RESILINK\ResiLink Backend\BusinessLogicLayer\obj\Debug\net7.0\ref\BusinessLogicLayer.dll
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\bin\Debug\net7.0\BusinessLogicLayer.deps.json
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\bin\Debug\net7.0\BusinessLogicLayer.dll
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\bin\Debug\net7.0\BusinessLogicLayer.pdb
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\bin\Debug\net7.0\DataAccessLayer.dll
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\bin\Debug\net7.0\DataAccessLayer.pdb
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.AssemblyInfo.cs
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.csproj.CopyComplete
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.dll
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\obj\Debug\net7.0\refint\BusinessLogicLayer.dll
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\obj\Debug\net7.0\BusinessLogicLayer.pdb
+E:\ResilinkProject\RESILINKBACKEND\BusinessLogicLayer\obj\Debug\net7.0\ref\BusinessLogicLayer.dll
