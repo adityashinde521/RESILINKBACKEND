@@ -1,5 +1,6 @@
 ﻿using DataAccessLayer.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,13 @@ namespace DataAccessLayer.Data
     public DbSet<PropertyType> PropertyTypes { get; set; }*/
         public DbSet<FurnishingType> FurnishingTypes { get; set; }
         public DbSet<City> Cities { get; set; }
+        //public DbSet<PropertyDetail> PropertyDetails { get; set; }
+        public DbSet<PropertyType> PropertyTypes { get; set; }
+
+        public DbSet<Models.Property> Properties { get; set; }
+
+
+
 
     }
 }

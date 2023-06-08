@@ -172,3 +172,5 @@ E:\ResilinkProject\RESILINKBACKEND\ResiLinkAPI\obj\Debug\net7.0\refint\ResiLinkA
 E:\ResilinkProject\RESILINKBACKEND\ResiLinkAPI\obj\Debug\net7.0\ResiLinkAPI.pdb
 E:\ResilinkProject\RESILINKBACKEND\ResiLinkAPI\obj\Debug\net7.0\ResiLinkAPI.genruntimeconfig.cache
 E:\ResilinkProject\RESILINKBACKEND\ResiLinkAPI\obj\Debug\net7.0\ref\ResiLinkAPI.dll
+E:\ResilinkProject\RESILINKBACKEND\ResiLinkAPI\bin\Debug\net7.0\AutoMapper.dll
+E:\ResilinkProject\RESILINKBACKEND\ResiLinkAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

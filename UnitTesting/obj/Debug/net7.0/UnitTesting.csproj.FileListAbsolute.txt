@@ -310,3 +310,5 @@ E:\ResilinkProject\RESILINKBACKEND\UnitTesting\obj\Debug\net7.0\refint\UnitTesti
 E:\ResilinkProject\RESILINKBACKEND\UnitTesting\obj\Debug\net7.0\UnitTesting.pdb
 E:\ResilinkProject\RESILINKBACKEND\UnitTesting\obj\Debug\net7.0\UnitTesting.genruntimeconfig.cache
 E:\ResilinkProject\RESILINKBACKEND\UnitTesting\obj\Debug\net7.0\ref\UnitTesting.dll
+E:\ResilinkProject\RESILINKBACKEND\UnitTesting\bin\Debug\net7.0\AutoMapper.dll
+E:\ResilinkProject\RESILINKBACKEND\UnitTesting\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
