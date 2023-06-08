@@ -1,5 +1,5 @@
-﻿using BusinessLogicLayer.Interfaces;
-using DataAccessLayer.DTOs;
+﻿using BusinessLogicLayer.DTOs;
+using BusinessLogicLayer.Interfaces;
 using DataAccessLayer.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
