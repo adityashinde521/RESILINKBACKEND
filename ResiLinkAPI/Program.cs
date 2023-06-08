@@ -69,6 +69,8 @@ builder.Services
 
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IFurnishingTypeRepository, FurnishingTypeRepository>();
+builder.Services.AddScoped<ICityService, CityService>();
+builder.Services.AddScoped<ICityRepository, CityRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
