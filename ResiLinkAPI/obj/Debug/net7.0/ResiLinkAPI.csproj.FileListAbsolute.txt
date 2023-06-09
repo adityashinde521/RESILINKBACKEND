@@ -174,3 +174,4 @@ E:\ResilinkProject\RESILINKBACKEND\ResiLinkAPI\obj\Debug\net7.0\ResiLinkAPI.genr
 E:\ResilinkProject\RESILINKBACKEND\ResiLinkAPI\obj\Debug\net7.0\ref\ResiLinkAPI.dll
 E:\ResilinkProject\RESILINKBACKEND\ResiLinkAPI\bin\Debug\net7.0\AutoMapper.dll
 E:\ResilinkProject\RESILINKBACKEND\ResiLinkAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\ResilinkProject\RESILINKBACKEND\ResiLinkAPI\bin\Debug\net7.0\log4net.dll

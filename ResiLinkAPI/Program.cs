@@ -13,6 +13,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using log4net;
+using log4net.Config;
+using Microsoft.Extensions.DependencyInjection;
+using ResiLinkAPI.Middleware;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,16 +41,7 @@ builder.Services
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
-builder.Services.AddCors(options =>
-{
-    options.AddDefaultPolicy(builder =>
-    {
-        builder.AllowAnyOrigin();
-        builder.AllowAnyMethod();
-        builder.AllowAnyHeader();
 
-    });
-});
 
 // Config Identity
 builder.Services.Configure<IdentityOptions>(options =>
@@ -79,6 +75,7 @@ builder.Services
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Secret"]))
         };
     });
+
 //Add Authorization
 builder.Services.AddAuthorization();
 
@@ -130,6 +127,25 @@ IServiceCollection serviceCollection = builder.Services.AddAutoMapper(typeof(Aut
 //Adding Controllers
 builder.Services.AddControllers();
 
+//Exception Handling
+builder.Services.AddSingleton<ILog>(provider =>
+{
+    var logRepository = LogManager.GetRepository(System.Reflection.Assembly.GetEntryAssembly());
+    XmlConfigurator.Configure(logRepository, new System.IO.FileInfo("log4net.config"));
+    return LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+});
+
+//
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.AllowAnyOrigin();
+        builder.AllowAnyMethod();
+        builder.AllowAnyHeader();
+
+    });
+});
 
 var app = builder.Build();
 
@@ -145,7 +161,6 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseMiddleware<LoggingMiddleware>();
 app.MapControllers();
-
 app.Run();
