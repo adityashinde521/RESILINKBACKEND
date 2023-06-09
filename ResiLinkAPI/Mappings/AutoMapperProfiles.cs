@@ -17,8 +17,9 @@ namespace HSPA_BACKEND.Mappings
             CreateMap<PropertyType, PropertyTypeDto>().ReverseMap();
 
             CreateMap<Property, PropertyListingDto>().ReverseMap();
-            //CreateMap<User, UserRegistrationDto>().ReverseMap();
-            //CreateMap<User, UserLoginDto>().ReverseMap();
+            CreateMap<ApplicationUser, RegisterDto>().ReverseMap();
+            CreateMap<ApplicationUser, LoginDto>().ReverseMap();
+            CreateMap<ApplicationUser, UserDto>().ReverseMap();
 
         }
 

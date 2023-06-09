@@ -1,3 +1,5 @@
+using BusinessLayer.Interfaces;
+using BusinessLayer.Services;
 using BusinessLogicLayer.Interfaces;
 using BusinessLogicLayer.Services;
 using DataAccessLayer.Data;
@@ -33,6 +35,17 @@ builder.Services
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.AllowAnyOrigin();
+        builder.AllowAnyMethod();
+        builder.AllowAnyHeader();
+
+    });
+});
+
 // Config Identity
 builder.Services.Configure<IdentityOptions>(options =>
 {
@@ -66,6 +79,7 @@ builder.Services
         };
     });
 
+
 // Inject app Dependencies (Dependency Injection)
 
 builder.Services.AddScoped<IAuthService, AuthService>();
@@ -74,6 +88,11 @@ builder.Services.AddScoped<ICityService, CityService>();
 builder.Services.AddScoped<ICityRepository, CityRepository>();
 builder.Services.AddScoped<IPropertyRepository, PropertyRepository>();
 builder.Services.AddScoped<IPropertyTypeRepository, PropertyTypeRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
+
+
+
 
 IServiceCollection serviceCollection = builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
@@ -90,6 +109,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors();
 
 app.UseHttpsRedirection();
 
