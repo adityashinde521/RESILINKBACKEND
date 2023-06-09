@@ -1,8 +1,13 @@
 ﻿using BusinessLayer.Interfaces;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
+
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize(Roles = "ADMIN")]
 public class UserController : ControllerBase
 {
     private readonly IUserService userService;

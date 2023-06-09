@@ -13,6 +13,10 @@ namespace DataAccessLayer.Interfaces
         Task<ApplicationUser> GetUserByIdAsync(string id);
         Task<IEnumerable<ApplicationUser>> GetUsersByRoleAsync(string role);
         Task<bool> DeleteUserAsync(string id);
+     
+
+
+
     }
 
 }

@@ -11,5 +11,6 @@ namespace BusinessLayer.Interfaces
         Task<UserDto> GetUserByIdAsync(string id);
         Task<IEnumerable<UserDto>> GetUsersByRoleAsync(string role);
         Task<bool> DeleteUserAsync(string id);
+
     }
 }

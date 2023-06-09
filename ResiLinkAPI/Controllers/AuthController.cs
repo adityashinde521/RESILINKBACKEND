@@ -8,6 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ResiLinkAPI.Controllers
 {
@@ -25,6 +26,7 @@ namespace ResiLinkAPI.Controllers
         // Route For Seeding my roles to DB
         [HttpPost]
         [Route("seed-roles")]
+        [Authorize(Roles = "ADMIN")]
         public async Task<IActionResult> SeedRoles()
         {
             var seerRoles = await authService.SeedRolesAsync();
@@ -36,6 +38,7 @@ namespace ResiLinkAPI.Controllers
         // Route -> Register
         [HttpPost]
         [Route("register")]
+        [AllowAnonymous]
         public async Task<IActionResult> Register([FromBody] RegisterDto registerDto)
         {
             var registerResult = await authService.RegisterAsync(registerDto);
@@ -50,6 +53,7 @@ namespace ResiLinkAPI.Controllers
         // Route -> Login
         [HttpPost]
         [Route("login")]
+        [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
             var loginResult = await authService.LoginAsync(loginDto);
@@ -60,34 +64,34 @@ namespace ResiLinkAPI.Controllers
             return Unauthorized(loginResult);
         }
 
-
-
-     // Route -> make user -> admin
-     /*   [HttpPost]
-        [Route("make-admin")]
-        public async Task<IActionResult> MakeAdmin([FromBody] UpdatePermissionDto updatePermissionDto)
-        {
-            var operationResult = await authService.MakeAdminAsync(updatePermissionDto);
-
-            if (operationResult.IsSucceed)
-                return Ok(operationResult);
-
-            return BadRequest(operationResult);
-        }
-*/
-
-     // Route -> make user -> owner
-    /*  [HttpPost]
-        [Route("make-owner")]
-        public async Task<IActionResult> MakeOwner([FromBody] UpdatePermissionDto updatePermissionDto)
-        {
-            var operationResult = await authService.MakeOwnerAsync(updatePermissionDto);
-
-            if (operationResult.IsSucceed)
-                return Ok(operationResult);
-
-            return BadRequest(operationResult);
-        }
-    */
     }
 }
+
+     // Route -> make user -> admin
+/*   [HttpPost]
+   [Route("make-admin")]
+   public async Task<IActionResult> MakeAdmin([FromBody] UpdatePermissionDto updatePermissionDto)
+   {
+       var operationResult = await authService.MakeAdminAsync(updatePermissionDto);
+
+       if (operationResult.IsSucceed)
+           return Ok(operationResult);
+
+       return BadRequest(operationResult);
+   }
+*/
+
+// Route -> make user -> owner
+/*  [HttpPost]
+    [Route("make-owner")]
+    public async Task<IActionResult> MakeOwner([FromBody] UpdatePermissionDto updatePermissionDto)
+    {
+        var operationResult = await authService.MakeOwnerAsync(updatePermissionDto);
+
+        if (operationResult.IsSucceed)
+            return Ok(operationResult);
+
+        return BadRequest(operationResult);
+    }
+*/
+

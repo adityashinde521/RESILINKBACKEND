@@ -31,11 +31,6 @@ namespace DataAccessLayer.Repository
             return user;
         }
 
-        public async Task<IEnumerable<ApplicationUser>> GetUsersByRoleAsync(string role)
-        {
-            var users = await userManager.GetUsersInRoleAsync(role);
-            return users;
-        }
 
         public async Task<bool> DeleteUserAsync(string id)
         {
@@ -45,6 +40,12 @@ namespace DataAccessLayer.Repository
 
             var result = await userManager.DeleteAsync(user);
             return result.Succeeded;
+        }
+
+        public async Task<IEnumerable<ApplicationUser>> GetUsersByRoleAsync(string role)
+        {
+            var users = await userManager.GetUsersInRoleAsync(role);
+            return users;
         }
     }
 }

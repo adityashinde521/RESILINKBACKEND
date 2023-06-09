@@ -73,6 +73,7 @@ namespace RESILINK_BACKEND.Controllers
 
         //Delete - Delete a city from the Cities table.
         [HttpDelete("{id}")]
+        [Authorize(Roles = "ADMIN")]
         public async Task<IActionResult> Delete(Guid id)
         {
             var deletedCity = await cityService.DeleteAsync(id);

@@ -2,7 +2,9 @@
 using BusinessLayer.Interfaces;
 using DataAccessLayer.Interfaces;
 using DataAccessLayer.Models;
+using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace BusinessLayer.Services
@@ -11,11 +13,13 @@ namespace BusinessLayer.Services
     {
         private readonly IUserRepository userRepository;
         private readonly IMapper mapper;
+        private readonly UserManager<ApplicationUser> userManager;
 
-        public UserService(IUserRepository userRepository, IMapper mapper)
+        public UserService(IUserRepository userRepository, IMapper mapper, UserManager<ApplicationUser> userManager)
         {
             this.userRepository = userRepository;
             this.mapper = mapper;
+            this.userManager = userManager;
         }
 
         public async Task<IEnumerable<UserDto>> GetUsersAsync()

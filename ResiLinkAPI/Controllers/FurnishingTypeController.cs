@@ -21,6 +21,7 @@ namespace ResiLinkAPI.Controllers
 
         [HttpGet("list")]
         [AllowAnonymous]
+        [Authorize(Roles = "ADMIN, PROPERTYMANAGER")]
         public async Task<IActionResult> GetFurnishingTypes()
         {
             var furnishingTypes = await furnishingTypeRepository.GetFurnishingTypesAsync();

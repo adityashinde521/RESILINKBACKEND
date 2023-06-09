@@ -42,7 +42,7 @@ namespace ResiLinkAPI.Controllers
             var propertyDto = _mapper.Map<PropertyListingDto>(property);
             return Ok(propertyDto);
         }
-        [Authorize(Roles="PropertyManager")]
+        [Authorize(Roles = "ADMIN, PROPERTYMANAGER")]
         [HttpPost]
         public async Task<IActionResult> CreateProperty(PropertyListingDto propertyDto)
         {
@@ -56,6 +56,7 @@ namespace ResiLinkAPI.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "ADMIN, PROPERTYMANAGER")]
         public async Task<IActionResult> DeleteProperty(Guid id)
         {
             var property = await _propertyRepository.DeletePropertyByIdAsync(id);
